@@ -1,17 +1,17 @@
 # Save as Config.yml for running GeoTIFFfromHPD
 
 HPDConnection:
-  User: ''                          #HPD Oracle User ID 
-  PW: ''                      #HPD Oracle User password
-  dsn: 'CARIS-DHPD.ad.linz.govt.nz'      #HPD Host server
-  port: '1522'                           #HPD Oracle port number
-  DBname: 'DHPD'                         #HPD Oracle DB instance name
+  User: ''                           #HPD Oracle User ID 
+  PW: ''                             #HPD Oracle User password
+  dsn: ''                            #HPD Host server
+  port: ''                           #HPD Oracle port number
+  DBname: ''                         #HPD Oracle DB instance name
 
 Datasets:
   Charts: [NZ561] #Chart name as [NZ6825, ]
 #Test NZ4424,NZ4432,NZ51,NZ512,NZ5121,NZ5125,NZ52,NZ521,NZ5212,NZ5322,NZ5324,NZ541,NZ5411
 # NO RNC, Dup NZ4212
 LDSConnection:
-  host: 'data.linz.govt.nz'
+  host: ''
   token: ''
-  config: 'configlds.yaml'
+  config: ''
