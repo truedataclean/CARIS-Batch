@@ -1,0 +1,19 @@
+oracle:
+  hostname: ''  #HPD Host server
+  port: ''                            #HPD Oracle port number
+  service_name: ''                    #HPD Oracle service name
+  username: ''                     #HPD Oracle User ID 
+  password: ''                 #HPD Oracle User password
+
+Datasets:
+  Charts: [{521,1},{521,2}] #Chart version ID with sheet No as [521, 1]
+
+SAVE_PATH: 'c:\\Temp\\Chart\\' #Path to save the GeoTIFF chart export files
+Backup_PATH: '\\prdassfile02.ad.linz.govt.nz\\Mariners\\Chart Products\\GeoTIFF\\Chart_BK\\' #Path to save the GeoTIFF chart export files
+
+LDS_STAG: ''
+
+LDSConnection:
+  host: ''
+  token: ''
+  config: 'C:\\Projects\\Git\\ChartGeoTiFFwithLINZ\\configlds.yaml'

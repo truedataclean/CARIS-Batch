@@ -1,0 +1,10 @@
+Connection:
+  Api_key: key 
+  Domain: data.linz.govt.nz
+Datasets:
+  Layers:
+  - 51389
+  - 51538
+Groups:
+  group: New Zealand Hydrographic Authority
+lds_page_type: layers
